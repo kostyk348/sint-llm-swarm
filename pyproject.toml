@@ -1,0 +1,11 @@
+[project]
+name = "sint-llm-swarm"
+version = "0.1.0"
+description = "LLM Swarm MCP server — parallel multi-agent debate with bagging"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=0.5.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
