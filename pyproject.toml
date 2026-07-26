@@ -1,11 +1,21 @@
 [project]
 name = "sint-llm-swarm"
-version = "0.1.0"
-description = "LLM Swarm MCP server — parallel multi-agent debate with bagging"
+version = "0.2.0"
+description = "LLM Swarm with SINT-intrinsic roles: sense, classify, cognition, metacognition, provenance, temporal, uncertainty, feedback"
+readme = "README.md"
 requires-python = ">=3.10"
-dependencies = [
-    "fastmcp>=0.5.0",
-]
+license = {text = "MIT"}
+authors = [{name = "kostyk348"}]
+keywords = ["sint", "llm-swarm", "mcp", "multi-agent", "cognitive-layers"]
 
-[tool.setuptools.packages.find]
-where = ["."]
+dependencies = ["fastmcp"]
+
+[project.scripts]
+sint-llm-swarm = "server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
