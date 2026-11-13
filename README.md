@@ -1,10 +1,19 @@
+<div align="center">
+
+<img src="docs/banner.svg" alt="sint-llm-swarm banner" width="1000">
+
 # sint-llm-swarm
+
+### LLM Swarm with SINT-Intrinsic Roles
 
 [![Release](https://img.shields.io/github/v/release/kostyk348/sint-llm-swarm?sort=semver&color=blue)](https://github.com/kostyk348/sint-llm-swarm/releases)
 [![License](https://img.shields.io/badge/license-Apache-2.0-green)](https://github.com/kostyk348/sint-llm-swarm/blob/master/LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/kostyk348/sint-llm-swarm?branch=master)](https://github.com/kostyk348/sint-llm-swarm/commits/master)
 
-**LLM Swarm with SINT-Intrinsic Roles**
+</div>
+
+---
+
 
 Not generic creator/critic/adversary. Every role derives from SINT methodology:
 
